@@ -4,6 +4,7 @@ import tsconfigPaths from 'vite-tsconfig-paths'
 import { createHtmlPlugin } from 'vite-plugin-html'
 import { imagetools } from 'vite-imagetools'
 import svgr from 'vite-plugin-svgr'
+import { chunkSplitPlugin } from 'vite-plugin-chunk-split'
 import { manifest } from './manifest'
 
 export default defineConfig({
@@ -29,5 +30,8 @@ export default defineConfig({
     }),
     imagetools(),
     svgr(),
+    chunkSplitPlugin({
+      strategy: 'single-vendor',
+    }),
   ],
 })
