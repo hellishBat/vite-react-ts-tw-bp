@@ -5,7 +5,7 @@ import { createHtmlPlugin } from 'vite-plugin-html'
 import { imagetools } from 'vite-imagetools'
 import svgr from 'vite-plugin-svgr'
 import { chunkSplitPlugin } from 'vite-plugin-chunk-split'
-import { manifest } from './manifest'
+import { APP_INFO } from './app-info'
 
 export default defineConfig({
   server: {
@@ -25,7 +25,7 @@ export default defineConfig({
     createHtmlPlugin({
       minify: true,
       inject: {
-        data: manifest,
+        data: APP_INFO,
       },
     }),
     imagetools(),
