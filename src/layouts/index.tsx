@@ -1,8 +1,8 @@
 // Layout
 import { FC } from 'react'
 import { ChildrenTypes } from '@/types'
-import Header from '@/layouts/Header'
-import Footer from '@/layouts/Footer'
+import Header from '@/modules/Header'
+import Footer from '@/modules/Footer'
 
 const Layout: FC<ChildrenTypes> = ({ children }) => {
   return (

@@ -6,5 +6,5 @@
     "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true
   },
-  "include": ["vite.config.ts", "app-info"]
+  "include": ["vite.config.ts", "_info"]
 }

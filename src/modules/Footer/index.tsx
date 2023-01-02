@@ -1,5 +1,5 @@
 // Footer
-import Container from '@/components/Container'
+import { Container } from '@/components'
 import { IconHeart } from '@/assets'
 
 const Footer = () => {

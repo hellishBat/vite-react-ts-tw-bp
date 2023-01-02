@@ -1,6 +1,6 @@
 // Header
 import { useEffect, useState, useRef } from 'react'
-import Container from '@/components/Container'
+import { Container } from '@/components'
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false)
