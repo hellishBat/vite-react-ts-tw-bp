@@ -3,7 +3,7 @@
 ## Features
 
 - ⚛️ Supports React + TypeScript
-- 🔥 React Refresh (HMR) (**Dev mode**)
+- 🔥 Hot Module Replacement (HMR) (**Dev mode**)
 - 🖌️ Supports styling with
   - Tailwind CSS
   - SASS/SCSS preprocessor
